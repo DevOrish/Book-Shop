@@ -1,0 +1,138 @@
+body {
+    background-image: url(../img/books.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    font-size: 1.5rem;
+    border: 2px solid gray;
+}
+
+th {
+    font-size: 2rem;
+}
+
+td {
+    padding: 3px;
+}
+
+table img {
+    height: 100px;
+    width: 70px;
+    margin: 0;
+}
+
+.actions {
+    width: 50%;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+}
+
+.catalog {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.699);
+    margin: auto;
+    width: 80%;
+}
+
+td button {
+    border: none;
+    color: black;
+    padding: 12px 17px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+}
+
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+
+.button1 {
+    background-color: rgba(125, 109, 146, 0.801);
+}
+
+.button2 {
+    background-color: rgba(129, 172, 172, 0.719);
+}
+
+.button3 {
+    background-color: rgba(110, 167, 110, 0.746);
+}
+
+.add-book-button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 17px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+    background-color: rgb(58, 25, 25);
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+
+}
+
+.modal-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content img {
+    width: 55%;
+}
+
+.hide {
+    display: none;
+}
