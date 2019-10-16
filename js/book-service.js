@@ -11,7 +11,7 @@ function createBooks() {
         var books = [
             createBook('harry Potter 2', 20, 'img/1.jpg', 'J.K. Roaling'),
             createBook('Mulu\'s Adventures', 1, 'img/2.jpg', 'Sigmund Freud'),
-            createBook('Koko The Singer Biography', 999, 'img/3.jpg', 'Zrobavel Halimi'),
+            createBook('Koko The Singer Biography', 99, 'img/3.jpg', 'Zrobavel Halimi'),
             createBook('Holy Bible', 15, 'img/4.png', 'God')
         ]
     }
@@ -36,11 +36,7 @@ function getBooks() {
     return gBooks;
 }
 
-function addBook() {
-    var name = prompt('Book Name?')
-    var price = +prompt('Book Price?($USD)')
-    var author = prompt('Author?')
-    var book = createBook(name, price, 'img/noimage.png', author);
+function addBook(book) {
     gBooks.unshift(book);
     saveBooksToStorage()
 }

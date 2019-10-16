@@ -136,3 +136,25 @@ button:active {
 .hide {
     display: none;
 }
+
+.lang-select-container{
+    text-align: right;
+}
+
+.lang-selector{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+    background-color: rgb(58, 25, 25);
+}
+
+body.rtl {
+    direction: rtl;
+}

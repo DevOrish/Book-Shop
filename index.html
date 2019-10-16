@@ -11,17 +11,26 @@
 
 <body onload="init()">
     <div class="header">
-        <h1>bookshop</h1>
+        <h1 data-trans="title">bookshop</h1>
+        <div class="lang-select-container">
+            <p data-trans="select-language">Select language</p>
+            <select class="lang-selector" onchange="onSetLang(this.value)">
+                <option value="en">English</option>
+                <option value="he">עברית</option>
+            </select>
+        </div>
+
     </div>
     <table class="catalog">
         <tr class="table-header">
-            <th>Name</th>
-            <th>Price ($USD)</th>
-            <th>Photo</th>
-            <th class="actions">Actions <button class="add-book-button" onclick="onAddBook()">Add A Book</button></th>
+            <th data-trans="name">Name</th>
+            <th data-trans="price">Price</th>
+            <th data-trans="photo">Photo</th>
+            <th class="actions"><span data-trans="actions">Actions</span>
+                <button class="add-book-button" onclick="onAddBook()" data-trans="add-btn">Add A Book</button></th>
         </tr>
         <tbody class="table-content">
-
+            <span></span>
         </tbody>
     </table>
     <div class="modal hide">
@@ -30,6 +39,7 @@
         </div>
     </div>
     <script src="js/book-utils.js"></script>
+    <script src="js/lang.js"></script>
     <script src="js/book-service.js"></script>
     <script src="js/book-controller.js"></script>
 </body>
