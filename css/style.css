@@ -20,8 +20,8 @@ td {
 }
 
 table img {
-    height: 100px;
-    width: 70px;
+    height: 110px;
+    width: 80px;
     margin: 0;
 }
 
@@ -157,4 +157,8 @@ button:active {
 
 body.rtl {
     direction: rtl;
+}
+
+.modal .small-img{
+width: 77%;
 }

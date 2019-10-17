@@ -11,7 +11,8 @@ function createBooks() {
         var books = [
             createBook('harry Potter 2', 20, 'img/1.jpg', 'J.K. Roaling'),
             createBook('Mulu\'s Adventures', 1, 'img/2.jpg', 'Sigmund Freud'),
-            createBook('Koko The Singer Biography', 99, 'img/3.jpg', 'Zrobavel Halimi'),
+            createBook('Koko The Singer Biography', 99, 'img/3.jpg" class="small-img"', 'Zrobavel Halimi'),
+            createBook('Lorem\'s Big Suprise', 17, 'img/4.jpg" class="small-img"', 'Ziggy Zilberberg'),
             createBook('Holy Bible', 15, 'img/4.png', 'God')
         ]
     }
