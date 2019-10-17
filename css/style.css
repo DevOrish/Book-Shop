@@ -60,7 +60,7 @@ button:active {
 }
 
 .button1 {
-    background-color: rgba(125, 109, 146, 0.801);
+    background-color: rgba(110, 167, 110, 0.746)
 }
 
 .button2 {
@@ -68,7 +68,7 @@ button:active {
 }
 
 .button3 {
-    background-color: rgba(110, 167, 110, 0.746);
+    background-color: rgba(168, 28, 52, 0.801);
 }
 
 .add-book-button {
@@ -93,7 +93,6 @@ button:active {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-
 }
 
 .modal-content {
@@ -137,11 +136,11 @@ button:active {
     display: none;
 }
 
-.lang-select-container{
+.lang-select-container {
     text-align: right;
 }
 
-.lang-selector{
+.lang-selector {
     border: none;
     color: rgb(255, 255, 255);
     padding: 6px 10px;
@@ -159,6 +158,6 @@ body.rtl {
     direction: rtl;
 }
 
-.modal .small-img{
-width: 77%;
+.modal .small-img {
+    width: 77%;
 }
